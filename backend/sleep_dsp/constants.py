@@ -1,0 +1,18 @@
+PPG_SAMPLE_RATE_HZ = 100.0
+IMU_SAMPLE_RATE_HZ = 50.0
+
+EPOCH_SECONDS = 30.0
+
+GRAVITY_M_S2 = 9.80665
+RAD_S_TO_DEG_S = 57.29577951308232
+
+PPG_BANDPASS_LOW_HZ = 0.5
+PPG_BANDPASS_HIGH_HZ = 5.0
+
+MIN_HEART_RATE_BPM = 30.0
+MAX_HEART_RATE_BPM = 200.0
+
+# Prototype motion thresholds. These are calibration parameters, not
+# universal physiological constants.
+MOTION_ENMO_THRESHOLD_G = 0.05
+MOTION_GYRO_THRESHOLD_DPS = 10.0

@@ -1,0 +1,19 @@
+# Python
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Runtime data
+backend/data/
+*.stbin
+
+# PlatformIO / editor generated files
+firmware/.pio/
+firmware/compile_commands.json
+.vscode/
+.DS_Store
+
+# Local credentials
+firmware/include/Secrets.h
