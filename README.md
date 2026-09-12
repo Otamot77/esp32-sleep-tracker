@@ -42,6 +42,10 @@ have not yet been validated. SpO2 percentage is disabled until suitable
 reference data is available for calibration. Sleep-stage and recovery outputs
 are experimental and are not medical measurements.
 
+## Development context
+
+I built this as a learning-focused project to understand the full path from embedded sensing to backend analysis. I used AI tools throughout the project as a learning and development aid, including for explanations, planning, implementation guidance, debugging, and code review. I checked suggestions against technical documentation and tests, and focused on understanding the system’s design decisions, tradeoffs, and limitations.
+
 ## Running the checks
 
 The backend uses Python 3.11 or newer:
